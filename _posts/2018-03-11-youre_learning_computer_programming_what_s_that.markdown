@@ -6,7 +6,7 @@ permalink:  youre_learning_computer_programming_what_s_that
 ---
 
 
-## why is it so hard to explain what computer programming is to the average joe
+## why is it so hard to explain what computer programming is to the average joe?
 
 There are so many ways to answer this question, but most aren't satisfying answers. I'll soon tell you why. but first, some popular answers
 
