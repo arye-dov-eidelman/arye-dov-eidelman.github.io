@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "You're learning Computer Programming? What’s that?"
-date:       2018-03-11 23:01:32 +0000
+date:       2018-03-11 19:01:33 -0400
 permalink:  youre_learning_computer_programming_what_s_that
 ---
 
