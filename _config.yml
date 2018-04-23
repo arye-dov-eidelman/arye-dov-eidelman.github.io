@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: aryedov.e@gmail.com
 copyright_name: arye-dov-eidelman
 description: > # this means to ignore newlines until "baseurl:"
-  Send my a email or slack
+  Send my an email or slack
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  arye-dov-eidelman
