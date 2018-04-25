@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Can you NEVER use "each" iterators"
-date:       2018-04-16 01:34:43 +0000
+date:       2018-04-15 21:34:44 -0400
 permalink:  can_you_never_use_each_iterators
 ---
 
@@ -13,6 +13,6 @@ This was inspired by recent study group where I watched someone use 'each' way t
 
 So I'm starting off with 10 each iterators total. Here I go.
 
-Ok, so I'm done✨😇. I removed 5 each iterators, made 42 additions and 48 deletions, fixed 1 bug and most importantly my code is more readable. check out the [merge commit here](https://github.com/arye-dov-eidelman/google_experiments/commit/c4059da9502f330b789de4060d9f89ae949b805a).
+Ok, so I'm done✨😇. I removed 5 each iterators, made 42 additions and 48 deletions, fixed 1 bug and most importantly my code is more readable. check out the [merge commit](https://github.com/arye-dov-eidelman/google_experiments/commit/c4059da9502f330b789de4060d9f89ae949b805a).
 
-With regards to the title, although it's technically possible to remove all each iterators, some things like printing a list of results don't have a built-in iterator and are best done manually also I don't know of a better way to do `data.each{ |k, v| self.send( "#{k}=", v ) }` if you do please email me or find me on the slack channel.
+With regards to the title, although it's technically possible to remove all each iterators, some things like printing a list of results don't have a built-in iterator and are best done manually also I don't know of a better way to do `data.each{ |k, v| self.send( "#{k}=", v ) }` if you do please email me or find me on the slack.
