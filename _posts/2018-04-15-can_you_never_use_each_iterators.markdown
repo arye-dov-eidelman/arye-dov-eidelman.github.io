@@ -5,6 +5,7 @@ date:       2018-04-15 21:34:44 -0400
 permalink:  can_you_never_use_each_iterators
 ---
 
+
 # Can you NEVER use "each" iterators
 
 ### and will my code shrink in size if I do this?
