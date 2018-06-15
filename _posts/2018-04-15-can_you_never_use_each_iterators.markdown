@@ -5,6 +5,8 @@ date:       2018-04-15 21:34:44 -0400
 permalink:  can_you_never_use_each_iterators
 ---
 
+# Can you NEVER use "each" iterators
+
 ### and will my code shrink in size if I do this?
 
 As an experiment, I'm going to take my CLI Data Gem Project and in a new branch, I will replace every each iterator with a higher level iterator then compare the amount of code from both branches to see if I'm gonna get a shorter and simpler program or maybe I'll hit a roadblock. I'll get back to you with the results.
