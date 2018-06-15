@@ -1,10 +1,10 @@
 # Site settings
-title: Have an idea for the blog title?
+title: What if your fingerprint was hacked?
 header-img: img/home-bg.png
 email: aryedov.e@gmail.com
 copyright_name: arye-dov-eidelman
 description: > # this means to ignore newlines until "baseurl:"
-  Send my an email or slack
+  Go ahead and try to change it!
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  arye-dov-eidelman
