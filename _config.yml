@@ -2,7 +2,7 @@
 author: Arye Dov Eidelman
 title: Arye's blog
 header-img: img/home-bg.png
-email: aryedov.e@gmail.com
+email: aryedoveidelman@gmail.com
 copyright_name: Arye Dov Eidelman
 description: > # this means to ignore newlines until "baseurl:"
    
@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  arye-dov-eidelman
 learn_profile: arye-dov-eidelman	
-email_username: aryedov.e@gmail.com
+email_username: aryedoveidelman@gmail.com
 
 # Build settings
 markdown: kramdown
