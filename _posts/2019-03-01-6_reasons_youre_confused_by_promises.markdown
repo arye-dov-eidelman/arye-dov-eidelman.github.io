@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "6 reasons you're confused by promises"
-date:       2019-03-01 18:56:55 +0000
+date:       2019-03-01 13:56:57 -0500
 permalink:  6_reasons_youre_confused_by_promises
 ---
 
@@ -121,5 +121,5 @@ It isn't just me who has issues with the terminology, [google's developer docume
 
 Some of this information above is based on [this discussion from 2012](https://github.com/promises-aplus/promises-spec/issues/5) about what terminology should be used. Let's just say some opinions we're rejected but no promises were broken 😉.
 
-It's interesting to note that the new async await syntax solves a lot of the issues and hides a lot of these terms. Now Instead of `reject`ing, we exclusively `throw` errors and instead of chaining an `onResolve` function. We `await` for the previous value to `resolve` before continuing. We also use the standard try...catch...finally syntax.
+It's interesting to note that the new async await syntax solves a lot of the issues and hides a lot of these terms. Now Instead of `reject`ing, we exclusively `throw` errors and instead of chaining an `onFulfill` function. We `await` for the previous value to `fulfill` before continuing. We also use the standard try...catch...finally syntax.
 
