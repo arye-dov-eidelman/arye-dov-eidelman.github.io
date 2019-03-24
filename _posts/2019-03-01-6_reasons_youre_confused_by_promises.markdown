@@ -23,13 +23,13 @@ new Promise(()=>{
   });
 ```
 
-1. promises should be broken with the [break<sup>2</sup>](https://www.merriam-webster.com/dictionary/break) method. But because `break` is a keyword in JavaScript (like most languages) the terms [reject](https://www.merriam-webster.com/dictionary/reject) and rejected are used instead. Even though reject is only used in reference to __others__ opinions.
+1. logging a fulfilled promise in Google Chrome logs a state of "resolved" instead of "fulfilled" as per the spec [<sup>[promise resolve functions]</sup>](https://www.ecma-international.org/ecma-262/#sec-promise-resolve-functions) [<sup>[fulfillpromise]</sup>](https://www.ecma-international.org/ecma-262/#sec-fulfillpromise). This is an implementation detail and shouldn't affect any code.
+
+1. in theory promises should be broken with the [break<sup>2</sup>](https://www.merriam-webster.com/dictionary/break) method. But because `break` is a keyword in JavaScript (like most languages) the terms [reject](https://www.merriam-webster.com/dictionary/reject) and rejected are used instead. Even though reject is jeneraly only used in reference to the opinions of __others__.
 
 1. Some terminology is based on a high-level description of promises where it's an analogy to promises between people where they can be `fulfilled` or ~~broken~~ `rejected`. While some terminology is based off a low-level description of promises as a placeholder for the eventual result of an asynchronous operation where it will `resolve` to a value and `then` the value can be used for future operations.
 
-1. This confusion is perpetuated by many blog posts/tutorials where the author didn't realize the clash of terminology. Some go with the high-level analogy and some go the low-level placeholder explanation. [some even claim it's one and the same](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a#4f34). Often new terminology is added to align with the explanation given. Leading to a lot of outright conflicting terminology for the exact same thing.
-
-1. Many tutorials don't mention that __then__ can take __2__ functions `onFulfilled` and `onRejected`. Without knowing this the term seems odd as `then` infers that it always happens after the previous promise, which is only the case if it is passed two functions.
+1. Many tutorials don't mention that __then__ can take __2__ functions `onFulfilled` and `onRejected`. Without knowing this the term then seems odd as `then` infers that it always happens after the previous promise resolves, which is only the case if it is passed two functions.
 
     ```javascript
     new Promise((resolve, reject)=>reject("error message"))
