@@ -26,7 +26,7 @@ new Promise(()=>{
 
 1. logging a fulfilled promise in Google Chrome logs a state of "resolved" instead of "fulfilled" as per the spec [<sup>[promise resolve functions]</sup>](https://www.ecma-international.org/ecma-262/#sec-promise-resolve-functions) [<sup>[fulfillpromise]</sup>](https://www.ecma-international.org/ecma-262/#sec-fulfillpromise). This is an implementation detail and shouldn't affect any code.
 
-1. in theory promises should be broken with the [break<sup>2</sup>](https://www.merriam-webster.com/dictionary/break) method. But because `break` is a keyword in JavaScript (like most languages) the terms [reject](https://www.merriam-webster.com/dictionary/reject) and rejected are used instead. Even though reject is jeneraly only used in reference to the opinions of __others__.
+1. in theory promises should be broken with the [break<sup>2</sup>](https://www.merriam-webster.com/dictionary/break) method. But because `break` is a keyword in JavaScript (like most languages) the terms [reject](https://www.merriam-webster.com/dictionary/reject) and rejected are used instead. Even though reject is generally only used in reference to the opinions of __others__.
 
 1. Some terminology is based on a high-level description of promises where it's an analogy to promises between people where they can be `fulfilled` or ~~broken~~ `rejected`. While some terminology is based off a low-level description of promises as a placeholder for the eventual result of an asynchronous operation where it will `resolve` to a value and `then` the value can be used for future operations.
 
