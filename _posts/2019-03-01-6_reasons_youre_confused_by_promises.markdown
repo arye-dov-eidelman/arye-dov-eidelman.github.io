@@ -22,6 +22,7 @@ new Promise(()=>{
     }
   });
 ```
+![](/img/promise-states-diagram.jpg)
 
 1. logging a fulfilled promise in Google Chrome logs a state of "resolved" instead of "fulfilled" as per the spec [<sup>[promise resolve functions]</sup>](https://www.ecma-international.org/ecma-262/#sec-promise-resolve-functions) [<sup>[fulfillpromise]</sup>](https://www.ecma-international.org/ecma-262/#sec-fulfillpromise). This is an implementation detail and shouldn't affect any code.
 
