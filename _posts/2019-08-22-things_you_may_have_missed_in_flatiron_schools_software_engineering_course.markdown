@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Things you may have missed in flatiron schools software engineering course"
-date:       2019-08-22 21:56:33 +0000
+date:       2019-08-22 17:56:34 -0400
 permalink:  things_you_may_have_missed_in_flatiron_schools_software_engineering_course
 ---
 
@@ -15,6 +15,14 @@ permalink:  things_you_may_have_missed_in_flatiron_schools_software_engineering_
 - I got accepted - How do I join my cohorts slack channel and opening video conference?
 
   It may just take some time, to get added to slack and notified when you'll meet. otherwise, you can contact your cohort lead or [admissions](mailto:admissions@flatironschool.com).
+
+## getting support
+
+- Stuck? Don't understand somthing? There are generally three places to go for help google, Ask A Question (AAQ) and the slack channels.
+
+- Still don't having issues? ask again!
+
+- Don't forget to ask. If your searching for a solution for more than an hour, you should probably just ask.
 
 ## learn from the command line (local setup)
 
