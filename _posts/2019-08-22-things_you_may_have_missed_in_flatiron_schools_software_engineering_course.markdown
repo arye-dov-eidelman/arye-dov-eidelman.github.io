@@ -16,7 +16,7 @@ permalink:  things_you_may_have_missed_in_flatiron_schools_software_engineering_
 
   It may just take some time, to get added to slack and notified when you'll meet. otherwise, you can contact your cohort lead or [admissions](mailto:admissions@flatironschool.com).
 
-## getting support
+## Getting support
 
 - Stuck? Don't understand somthing? There are generally three places to go for help google, Ask A Question (AAQ) and the slack channels.
 
