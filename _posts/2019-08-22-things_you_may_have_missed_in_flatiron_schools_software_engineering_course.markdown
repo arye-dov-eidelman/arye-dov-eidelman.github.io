@@ -48,7 +48,7 @@ permalink:  things_you_may_have_missed_in_flatiron_schools_software_engineering_
 
 - Can you connect to and authenticate with learn's servers correctly?
   
-  check that running `learn whoami` (who-am-i) prints your info and that `learn hello` prints "Hello <your first name>".
+  check that running `learn whoami` (who-am-i) prints your info and that `learn hello` prints "Hello {your first name}".
 
 - Trying to open a lab and getting an error similar to ``/gems/learn-open-1.2.22/lib/learn_open/lessons/ios_lesson.rb:6:in `detect': undefined method `any?' for false:FalseClass (NoMethodError)``?
 
@@ -93,7 +93,7 @@ permalink:  things_you_may_have_missed_in_flatiron_schools_software_engineering_
   
 - How can I revert changes to my blog?
 
-  Your blog is stored in a GitHub repository at `https://github.com/<your-name>/<your-name>.github.io` so you can always use git to get any previous state.
+  Your blog is stored in a GitHub repository at `https://github.com/{your-name}/{your-name}.github.io` so you can always use git to get any previous state.
 
 - How do I change the theme?
 
