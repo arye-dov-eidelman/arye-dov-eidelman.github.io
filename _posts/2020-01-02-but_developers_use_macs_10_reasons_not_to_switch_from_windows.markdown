@@ -41,7 +41,7 @@ That leads to the next thing. There is no window management.
     1. Drag the title bar of any window to the right or left edge of the screen for half screen. 
     1. You'll get suggestions for other windows to place in the remaining space (only on windows 10). 
 
-  On Windows 10 you can also snap to the corners for up to four windows.
+    On Windows 10 you can also snap to the corners for up to four windows.
 
 
   * On mac
