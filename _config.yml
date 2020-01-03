@@ -1,16 +1,14 @@
 # Site settings
-author: Arye Dov Eidelman
+author: Arye Eidelman
 title: Arye's blog
 header-img: img/home-bg.png
-email: aryedoveidelman@gmail.com
-copyright_name: Arye Dov Eidelman
+email: aryedov.e@gmail.com
+copyright_name: Arye Eidelman
 description: > # this means to ignore newlines until "baseurl:"
    
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: arye_eidelman
 github_username:  arye-dov-eidelman
-learn_profile: arye-dov-eidelman	
-email_username: aryedoveidelman@gmail.com
 
 # Build settings
 markdown: kramdown
