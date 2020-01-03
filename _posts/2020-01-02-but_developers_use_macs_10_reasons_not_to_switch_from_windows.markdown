@@ -19,21 +19,21 @@ So have in mind that your mileage may vary if you have less of a windows backgro
 
 1. Want to see hidden files? NO.
 
-1. Want to go up one directory in the finder? Google might find some 10 ways to go up one directory in finder article but none of the mare as easy clicking the up arrow.
+2. Want to go up one directory in the finder? Google might find some 10 ways to go up one directory in finder article but none of the mare as easy clicking the up arrow.
 
-1. Want to scroll the mouse the traditional direction it's been done since apple "invented" it and use the trackpad normally? NO. btw if you choose to have it scroll the traditional mouse way the three-finger gesture window switcher will be backwards as well.
+3. Want to scroll the mouse the traditional direction it's been done since apple "invented" it and use the trackpad normally? NO. btw if you choose to have it scroll the traditional mouse way the three-finger gesture window switcher will be backwards as well.
 
-1. Want to close an app, just click the tiny exit button right? NO, it'll just close the window, not the app. That means it'll still get in your way when task switching. Think alt-tabbing between two closed apps while staying on the empty desktop and the app you're looking for is the third or fourth most recent one after the apps you just "closed"
+4. Want to close an app, just click the tiny exit button right? NO, it'll just close the window, not the app. That means it'll still get in your way when task switching. Think alt-tabbing between two closed apps while staying on the empty desktop and the app you're looking for is the third or fourth most recent one after the apps you just "closed"
 
 That leads to the next thing. There is no window management.
 
-1. Alt-Tab is an application switcher, not a window switcher. that might sound the same at first, but it means that if you have two windows from the same application open, it won't switch between them. and if you "exit" a <del>app</del> window the app is still open and in your way.
+5. Alt-Tab is an application switcher, not a window switcher. that might sound the same at first, but it means that if you have two windows from the same application open, it won't switch between them. and if you "exit" a <del>app</del> window the app is still open and in your way.
 
 --------
 
 ### Can I speak about window management without mentioning window-snapping / screen-splitting. The innovating feature apple just added to iPad OS,  windows had for 10 years, and is still missing from Mac OS.
 
-1. The feature that makes having multiple windows support useful, so you can use (at least) two windows side by side, without them overlapping,  half your screens real estate ending up blank or fiddling with the window edges.
+6. The feature that makes having multiple windows support useful, so you can use (at least) two windows side by side, without them overlapping,  half your screens real estate ending up blank or fiddling with the window edges.
 
   Steps two split two apps across your screen:
 
@@ -54,7 +54,7 @@ That leads to the next thing. There is no window management.
 
 ----------
 
-1. And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
+7. And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
 
 
  - Sent from Google Chrome on Mac OS  (⌥
