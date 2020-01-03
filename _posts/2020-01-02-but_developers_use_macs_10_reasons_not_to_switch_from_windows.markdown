@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "'But developers use mac's' 10 reasons not to switch from windows"
-date:       2020-01-03 04:50:58 +0000
+title:      "'But developers use mac's' 7 reasons not to switch from windows"
+date:       2020-01-02 23:50:59 -0500
 permalink:  but_developers_use_macs_10_reasons_not_to_switch_from_windows
 ---
 
