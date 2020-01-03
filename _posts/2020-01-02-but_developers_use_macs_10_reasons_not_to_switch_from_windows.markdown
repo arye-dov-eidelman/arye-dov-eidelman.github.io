@@ -33,7 +33,7 @@ That leads to the next thing. There is no window management.
 
 ### Can I speak about window management without mentioning window-snapping / screen-splitting. The innovating feature apple just added to iPad OS,  windows had for 10 years, and is still missing from Mac OS.
 
-6. The feature that makes having multiple windows support useful, so you can use (at least) two windows side by side, without them overlapping,  half your screens real estate ending up blank or fiddling with the window edges.
+6. (6) The feature that makes having multiple windows support useful, so you can use (at least) two windows side by side, without them overlapping,  half your screens real estate ending up blank or fiddling with the window edges.
 
   Steps two split two apps across your screen:
 
@@ -54,7 +54,7 @@ That leads to the next thing. There is no window management.
 
 ----------
 
-7. And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
+7. (7) And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
 
 
  \- Sent from Google Chrome on Mac OS  (⌥
