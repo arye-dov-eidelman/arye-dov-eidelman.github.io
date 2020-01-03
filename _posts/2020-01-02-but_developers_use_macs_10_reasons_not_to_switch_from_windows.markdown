@@ -57,4 +57,4 @@ That leads to the next thing. There is no window management.
 7. And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
 
 
- - Sent from Google Chrome on Mac OS  (⌥
+ \- Sent from Google Chrome on Mac OS  (⌥
