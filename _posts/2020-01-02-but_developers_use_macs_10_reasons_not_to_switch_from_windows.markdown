@@ -27,7 +27,7 @@ So have in mind that your mileage may vary if you have less of a windows backgro
 
 That leads to the next thing. There is no window management.
 
-5. Alt-Tab is an application switcher, not a window switcher. that might sound the same at first, but it means that if you have two windows from the same application open, it won't switch between them. and if you "exit" a <del>app</del> window the app is still open and in your way.
+5. (5) Alt-Tab is an application switcher, not a window switcher. that might sound the same at first, but it means that if you have two windows from the same application open, it won't switch between them. and if you "exit" a <del>app</del> window the app is still open and in your way.
 
 --------
 
@@ -53,7 +53,7 @@ That leads to the next thing. There is no window management.
     1. Oh, and one more thing. if you want to change one of the two windows you'll need to start over again as well.
 
 **Edit**
-I've figured out how to do this. Hit F3 or three-finger edge swipe up on the trackpad. Now drag two screens on top of each other
+I've figured out how to do this. Hit F3 or three-finger edge swipe up on the trackpad. Now drag two screens on top of each other. (I've added number eight so there are still seven issues)
 
 ----------
 
