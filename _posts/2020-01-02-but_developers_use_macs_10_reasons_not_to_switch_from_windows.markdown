@@ -53,7 +53,7 @@ That leads to the next thing. There is no window management.
     1. Oh, and one more thing. if you want to change one of the two windows you'll need to start over again as well.
 
 **Edit**
-I've figured out how to do this. Hit F3 or three-finger edge swipe up on the trackpad. Now drag two screens on top of each other. (I've added number eight so there are still seven issues)
+I've figured out how to do this. Hit F3 or three-finger edge swipe up on the trackpad. Now drag two screens on top of each other. (I've added number eight so there are still seven issues.)
 
 ----------
 
