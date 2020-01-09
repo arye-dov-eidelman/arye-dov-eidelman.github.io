@@ -52,9 +52,15 @@ That leads to the next thing. There is no window management.
     1. If you forgot to remove the other window from fullscreen in step one, start over from step one.
     1. Oh, and one more thing. if you want to change one of the two windows you'll need to start over again as well.
 
+**Edit**
+I've figured out how to do this. Hit F3 or three-finger edge swipe up on the trackpad. Now drag two screens on top of each other
+
 ----------
 
 7. (7) And last but not least remember that all your keyboard shortcuts will change. On windows, the windows key is used for os shortcuts. and the control (ctrl) key is used for application shortcuts. On Mac OS, I still haven't figured it out.
 
+8. (8) what's with the recent apps on the dock showing duplicates?
+![recents in the dock with three vscode icons](https://pbs.twimg.com/media/ENyIa6hWwAAzrxU?format=png)
+Suddenly MacOS cares about individual windows and not applications as a whole? why would it show duplicates?
 
  \- Sent from Google Chrome on Mac OS  (⌥
