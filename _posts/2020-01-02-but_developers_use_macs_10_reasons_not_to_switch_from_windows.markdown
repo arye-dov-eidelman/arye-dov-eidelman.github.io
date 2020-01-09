@@ -61,6 +61,6 @@ I've figured out how to do this. Hit F3 or three-finger edge swipe up on the tra
 
 8. (8) what's with the recent apps on the dock showing duplicates?
 ![recents in the dock with three vscode icons](https://pbs.twimg.com/media/ENyIa6hWwAAzrxU?format=png)
-Suddenly MacOS cares about individual windows and not applications as a whole? why would it show duplicates?
+Suddenly MacOS cares about individual windows and not applications as a whole?
 
  \- Sent from Google Chrome on Mac OS  (⌥
