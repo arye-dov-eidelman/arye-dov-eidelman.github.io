@@ -36,51 +36,51 @@ Instead, I'll settle for a good fix for issue two and leave issue one for browse
 
 1. Create a js function that sets a CSS variable to a hundredth of the current window height.
 
-  ```javascript
-  let root = document.documentElement;
+    ```javascript
+    let root = document.documentElement;
 
-  function updateRealViewportDimensions() {
-    console.log(`1vh = ${window.innerHeight / 100}px`)
-    root.style.setProperty('--real-vh', (window.innerHeight / 100) + "px");
-  }
-  ```
+    function updateRealViewportDimensions() {
+      console.log(`1vh = ${window.innerHeight / 100}px`)
+      root.style.setProperty('--real-vh', (window.innerHeight / 100) + "px");
+    }
+    ```
 
 2. Add an event listener to any event that seems remotely related to touching scrolling or resizing the window that calls the above function.
 
-  ```javascript
-  updateRealViewportDimensions()
-  const vhChangeEventTypes = [
-    "scroll",
-    "resize",
-    "fullscreenchange",
-    "fullscreenerror",
-    "touchcancel",
-    "touchend",
-    "touchmove",
-    "touchstart",
-    "mozbrowserscroll",
-    "mozbrowserscrollareachanged",
-    "mozbrowserscrollviewchange",
-    "mozbrowserresize",
-    "MozScrolledAreaChanged",
-    "mozbrowserresize",
-    "orientationchange"
-  ]
-  vhChangeEventTypes.forEach(function(type) {
-    window.addEventListener(type, event => updateRealViewportDimensions());
-  })
-  ```
+    ```javascript
+    updateRealViewportDimensions()
+    const vhChangeEventTypes = [
+      "scroll",
+      "resize",
+      "fullscreenchange",
+      "fullscreenerror",
+      "touchcancel",
+      "touchend",
+      "touchmove",
+      "touchstart",
+      "mozbrowserscroll",
+      "mozbrowserscrollareachanged",
+      "mozbrowserscrollviewchange",
+      "mozbrowserresize",
+      "MozScrolledAreaChanged",
+      "mozbrowserresize",
+      "orientationchange"
+    ]
+    vhChangeEventTypes.forEach(function(type) {
+      window.addEventListener(type, event => updateRealViewportDimensions());
+    })
+    ```
 
 3. In your CSS you can then reference the variable using the var syntax.
 
-  ```css
-  #main-navigation.--open {
-    position: fixed;
-    height: calc((var(--real-vh) * 100) - var(--header-height, 45px));
-    width: 100vw;
-    z-index: 100;
-  }
-  ```
+    ```css
+    #main-navigation.--open {
+      position: fixed;
+      height: calc((var(--real-vh) * 100) - var(--header-height, 45px));
+      width: 100vw;
+      z-index: 100;
+    }
+    ```
 
 All the code is available at [github.com/arye-dov-eidelman/css-real-vh](https://github.com/arye-dov-eidelman/css-real-vh)
 
