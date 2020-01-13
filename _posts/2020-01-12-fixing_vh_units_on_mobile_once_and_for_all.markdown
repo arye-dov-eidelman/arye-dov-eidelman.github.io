@@ -82,7 +82,8 @@ Instead, I'll settle for a good fix for issue two and leave issue one for browse
   }
   ```
 
-All the code is available at https://github.com/arye-dov-eidelman/css-real-vh
-The live demo with and without the vh fix is availble at https://aryedoveidelman.com/css-real-vh/
+All the code is available at [github.com/arye-dov-eidelman/css-real-vh](https://github.com/arye-dov-eidelman/css-real-vh)
+
+The live demo with and without the vh fix is availble at [aryedoveidelman.com/css-real-vh](https://aryedoveidelman.com/css-real-vh/)
 
 
