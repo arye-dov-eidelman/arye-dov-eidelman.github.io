@@ -13,7 +13,7 @@ Specifically there two issues at play here:
 1. Any calculation that relies on the position of the bottom of the viewport - including CSS vh units, and bottom aligned items, javascript window.innerHeight or similar js methods for getting the viewport height - don't take the URL bar visibility changes into account until the scroll is finished. The exact definition of when it's finished varies by browser. In chrome it's when the page gets to a standstill in firefox it's when one leaves go of the screen (event type touchend).
 
 
-2. vh units never resize based on the URL bar visibility, even after the page completely finishes scrolling. This issue started in 2011 for safari mobile on ios 6 and December 2016 for chrome mobile 56. This is easier to work around as aligning content to the fixed/sticky to the bottom or getting the window inner height with javascript are ok workarounds.
+2. vh units never resize based on the URL bar visibility, even after the page completely finishes scrolling. This issue started in 2011 for safari mobile on ios 6 and December 2016 for chrome mobile 56. This is easier to work around as aligning fixed/sticky content to the bottom or getting the window inner height with javascript act as ok workarounds.
 
 An example of a workaround that works for issue one. Can be found on twitter.com's mobile navigation, sliding the page up and down you'll notice that the navigation bar is pixel perfect while scrolling in one direction but when you change directions you may see a gap of one or two pixels underneath the bar.
 
