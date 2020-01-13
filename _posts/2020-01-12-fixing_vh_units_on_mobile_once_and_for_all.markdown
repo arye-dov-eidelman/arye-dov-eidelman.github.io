@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Fixing vh units on mobile once and for all"
-date:       2020-01-13 02:59:56 +0000
+date:       2020-01-12 21:59:57 -0500
 permalink:  fixing_vh_units_on_mobile_once_and_for_all
 ---
 
@@ -70,6 +70,7 @@ Instead, I'll settle for a good fix for issue two and leave issue one for browse
     window.addEventListener(type, event => updateRealViewportDimensions());
   })
   ```
+
 3. In your CSS you can then reference the variable using the var syntax.
 
   ```css
