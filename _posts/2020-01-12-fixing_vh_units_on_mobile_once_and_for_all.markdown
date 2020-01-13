@@ -43,7 +43,7 @@ Instead, I'll settle for a good fix for issue two and leave issue one for browse
     console.log(`1vh = ${window.innerHeight / 100}px`)
     root.style.setProperty('--real-vh', (window.innerHeight / 100) + "px");
   }
-	```
+  ```
 
 2. Add an event listener to any event that seems remotely related to touching scrolling or resizing the window that calls the above function.
 
