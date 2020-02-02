@@ -46,7 +46,7 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
 
 4.  (4) Run the following code. Changing the models array and the database names `:origin` and `:destination` as needed.
 
-  ```
+  ```ruby
   # Get all models you'd like to migrate.
   models = [Question, QuestionVersion, Answer, AnswerVersion, Comment, Vote]
 
