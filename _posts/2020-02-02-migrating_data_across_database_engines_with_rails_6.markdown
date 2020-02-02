@@ -13,7 +13,7 @@ I'll try to keep this simpler then it was for my use case as I was using Heroku 
 
 Side note if you want to migrate data between two environments like production and staging you do not need to set up multiple databases in the same environment and won't require the rails 6 features for dealing with multiple databases (jump to step 3). when connecting to databases in step 4 instead of using `:origin` and `:destination` use `:production` and `:development` (or whatever environments you need to migrate between.)
 
-1. you may want to set up a rails environment specifically for this migration (especially if this is not a one-off migration) for more on that see https://nts.strzibny.name/creating-staging-environments-in-rails/ for this article I'll be using an environment called migrator
+1. you may want to set up a rails environment specifically for this migration (especially if this is not a one-off migration) for more on that see [nts.strzibny.name/creating-staging-environments-in-rails](https://nts.strzibny.name/creating-staging-environments-in-rails/) for this article I'll be using an environment called migrator
  I've therefore done the following:
 
     1. Created a file config/environments/migrator with the following contents  `require File.expand_path('../development.rb', __FILE__)` as I plan on running this locally on my machine (At least until I can get SQLite running on Heroku or move to another hosting provider.)
