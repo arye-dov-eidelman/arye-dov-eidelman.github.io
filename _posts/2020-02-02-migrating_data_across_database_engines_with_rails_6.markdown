@@ -42,9 +42,9 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
 
   The command used above `` `heroku config:get DATABASE_URL --app redacted-app-name` `` is used to get the production Postgres credentials, (reading from the apps environment variables.) `if Rails.env.migrator?` is appended so that this is not run. in production environments where it would fail due to not having the Heroku CLI installed.
 
-3. Make sure to create and migrate both databases.
+3. (3) Make sure to create and migrate both databases.
 
-4.  run the following code (changing the models array and the database names `:origin` and `:destination` as needed)
+4.  (4) Run the following code. Changing the models array and the database names `:origin` and `:destination` as needed.
 
   ```
   # Get all models you'd like to migrate.
