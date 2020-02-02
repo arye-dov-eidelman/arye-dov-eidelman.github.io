@@ -74,9 +74,13 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
   end
   ```
 
-Depending on your model relationships you may need to disable some validations and/or order your models array correctly so that you don't cause validation errors.
+Some things that you should be aware of.
 
-A note of warning about running this in a web server (as opposed to a rake task or in the console). The connected database is set for all threads and will affect other web requests happening at the same time. You are better off running this in its own server that isn't accepting web requests.
+- Depending on your model relationships you may need to disable some validations and/or order your models array correctly so that you don't cause validation errors.
+
+- Running this on a live web server (as opposed to a rake task or in the console) can affect the database used for other requests.
+
+- This can get very slow very fast. Some reasons that could be causing this are that it's using an insert for each record instead of a bulk insert or that my local computer is very far from the database as opposed to them being in the same datacenter. it's possible that these two issues are compounded with a round trip network request for each SQL statement.
 
 Some of the information is based on this article <https://alistairisrael.wordpress.com/2007/09/07/using-rails-console-to-copy-records-across-databases/> which is from the rails version 1 days. it is mostly the same until rails 6.
 
