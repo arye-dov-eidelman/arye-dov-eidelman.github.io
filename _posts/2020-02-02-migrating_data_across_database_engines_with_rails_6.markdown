@@ -16,8 +16,7 @@ Side note if you want to migrate data between two environments like production a
 1. you may want to set up a rails environment specifically for this migration (especially if this is not a one-off migration) for more on that see https://nts.strzibny.name/creating-staging-environments-in-rails/ for this article I'll be using an environment called migrator
  I've therefore done the following:
 
-    1. Created a file config/environments/migrator with the following contents  `
-require File.expand_path('../development.rb', __FILE__)` as I plan on running this locally on my machine (At least until I can get SQLite running on Heroku or move to another hosting provider.)
+    1. Created a file config/environments/migrator with the following contents  `require File.expand_path('../development.rb', __FILE__)` as I plan on running this locally on my machine (At least until I can get SQLite running on Heroku or move to another hosting provider.)
 
     2. Configured my database adaptor gems to be installed in the correct environments.
 
