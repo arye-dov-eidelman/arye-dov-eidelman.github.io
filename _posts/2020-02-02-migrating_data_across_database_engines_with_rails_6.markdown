@@ -58,7 +58,7 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
 
     # Load all record from the database.
     # .to_a forces eager loading of records before the connected database is changed
-    # by changing the result from an ActiveRecord_Relation  to an array of in records.
+    # by changing the result from an ActiveRecord_Relation  to an array of records.
     records = model.all.to_a
 
     # Change over to the destination database.
