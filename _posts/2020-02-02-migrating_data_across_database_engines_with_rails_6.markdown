@@ -25,7 +25,7 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
 
 2. Follow step 1 of [active record multiple-databases guide](https://guides.rubyonrails.org/active_record_multiple_databases.html), to set up the databases you would like to migrate between. Do not follow step 2 of the guide if you'de like to use the same database schema for both databases
 
-  As an example my database config (config/database.yml) for the migrator envirment looks like this.
+  As an example, my database config (config/database.yml) for the migrator environment looks like this.
   ```yaml
   migrator:
     destination:
