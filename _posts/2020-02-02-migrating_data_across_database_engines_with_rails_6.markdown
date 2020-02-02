@@ -46,33 +46,33 @@ require File.expand_path('../development.rb', __FILE__)` as I plan on running th
 
 4.  run the following code (changing the models array and the database names `:origin` and `:destination` as needed)
 
-```
-# Get all models you'd like to migrate.
-models = [Question, QuestionVersion, Answer, AnswerVersion, Comment, Vote]
+  ```
+  # Get all models you'd like to migrate.
+  models = [Question, QuestionVersion, Answer, AnswerVersion, Comment, Vote]
 
-# For each model do the following.
-models.each do |model|
+  # For each model do the following.
+  models.each do |model|
 
-  # Connect to the origin database.
-  ActiveRecord::Base.establish_connection(:origin)
+    # Connect to the origin database.
+    ActiveRecord::Base.establish_connection(:origin)
 
-  # Load all record from the database.
-  # .to_a forces eager loading of records before the connected database is changed
-  # by changing the result from an ActiveRecord_Relation  to an array of in records.
-  records = model.all.to_a
+    # Load all record from the database.
+    # .to_a forces eager loading of records before the connected database is changed
+    # by changing the result from an ActiveRecord_Relation  to an array of in records.
+    records = model.all.to_a
 
-  # Change over to the destination database.
-  ActiveRecord::Base.establish_connection(:destination)
+    # Change over to the destination database.
+    ActiveRecord::Base.establish_connection(:destination)
 
-  # Create (and save) a new record in the destination database for each record .
-  # This odd way of saving records `.create!(record.attributes)`
-  # is used to keep it's id's and therefore it's relationships intact.
-  records.each do |record|
-    record.class.create!(record.attributes)
+    # Create (and save) a new record in the destination database for each record .
+    # This odd way of saving records `.create!(record.attributes)`
+    # is used to keep it's id's and therefore it's relationships intact.
+    records.each do |record|
+      record.class.create!(record.attributes)
+    end
+
   end
-
-end
-```
+  ```
 
 Depending on your model relationships you may need to disable some validations and/or order your models array correctly so that you don't cause validation errors.
 
