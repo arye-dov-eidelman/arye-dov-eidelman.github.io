@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Migrating data across database engines with Rails 6"
-date:       2020-02-02 05:00:00 +0000
+date:       2020-02-02 00:00:02 -0500
 permalink:  migrating_data_across_database_engines_with_rails_6
 ---
 
